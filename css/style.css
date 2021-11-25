@@ -1,0 +1,1355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+    /* -------- MEDIA QUERIE --------*/
+
+
+    /* -------- VISTA MOBILE --------*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+
+ .container {
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 70px 20px 20px 150px auto 60px 20px 1fr;
+     grid-template-areas:
+     "logo"
+     "leftnav"
+     "rightnav"
+     "banner"
+     "servicio"
+     "logofoot"
+     "leftnavfoot"
+     "rightnavfoot";
+ }
+  
+ .logo { 
+   grid-area: logo;
+   display: flex;
+   justify-content: center;
+   margin: 3px;
+ }
+  
+ .leftnav { 
+   grid-area: leftnav; 
+ }
+  
+ .rightnav { 
+   grid-area: rightnav; 
+ }
+  
+ .banner { 
+   grid-area: banner;
+ }
+  
+ .servicio { 
+   grid-area: servicio;
+ }
+  
+ .logofoot { 
+   grid-area: logofoot;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+ }
+  
+ .leftnavfoot { 
+   grid-area: leftnavfoot; 
+ }
+  
+ .rightnavfoot { 
+   grid-area: rightnavfoot; 
+ }
+
+/*------ HOME ESTILOS MOBILE --------*/
+
+ a{
+  color: rgb(20, 19, 80);
+  text-decoration: none;
+ }
+  
+ p{
+  text-align: center;
+  font-size: 12px;     
+ }
+
+ h1{
+  text-align: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  align-items: center;
+ }
+
+ .head--textos {
+  background-color: rgba(0, 0, 0, 0.151);
+  background-position: center;
+  background-size: cover;
+  top: 65px;
+  position: relative; 
+ }
+
+ li.header{
+   list-style-type: none;
+   font-size: 12px;
+   padding: 0   20px;
+ }
+
+ .li-footer{
+   list-style-type: none;
+   padding: 0 20px 10px;
+   font-size: 12px;
+ }
+
+
+ .boton{
+   color: rgb(0, 0, 0);
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   padding: 5px;
+   margin-bottom: 10px;
+   background-color: #f0f4f7 ;
+   border: 1px solid rgb(58, 50, 133);
+   border-radius: 4px;
+ }
+
+ .boton.boton--filter:hover{
+   color: rgb(255, 255, 255);
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   padding: 10px;
+   background-color: rgb(31,75,128);
+   border: 1px solid rgb(255, 255, 255);
+   transition: 0.5s;
+   border-radius: 4px;
+ }
+
+
+ ul.right-flex{
+   display:flex;
+   justify-content:center;   
+ }
+
+ ul.left-flex{
+   display: flex;
+   justify-content:center;    
+ }
+
+ .left-flex-foot{
+   display: flex;
+   justify-content:center;    
+
+ }
+
+ .right-flex-foot{
+   display: flex;
+   justify-content:center;    
+ }
+
+ .logo img{
+   display: flex;
+ }
+
+ .logofoot{
+   justify-content: center;
+   justify-items: center;
+ }
+
+
+ .main-text{
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 10px;
+   margin: 0;
+   display: none;
+ }
+
+ .header--banner{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/header.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: auto;
+ }
+
+ section.main-3pics{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+ }
+
+ section.main-3pics img{
+   flex-direction: row;
+   flex-wrap: nowrap;
+   height: auto;
+   width: 100%;
+   border-radius: 30px;
+ }
+
+ div.img-01{
+   margin: 5px;
+   width: 75%;
+   border-style: dashed;
+   border-radius: 30px;
+   border-width: 1px;
+   border-color: rgb(31,75,128);
+   margin: 10px 0;
+ }
+
+ /* -------- GRID NOSOTROS MOBILE ------------ */
+ /* -------- GRID NOSOTROS MOBILE ------------ */
+ /* -------- GRID NOSOTROS MOBILE ------------ */
+
+ .containernosotros {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 20px 20px 200px auto 60px 20px 1fr;
+    grid-template-areas:
+      "logo"
+      "leftnav"
+      "rightnav"
+      "banner"
+      "texto"
+      "logofoot"
+      "leftnavfoot"
+      "rightnavfoot";
+   }
+   
+ .logo { 
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+ }
+   
+ .leftnav { 
+    grid-area: leftnav; 
+ }
+   
+ .rightnav { 
+    grid-area: rightnav; 
+ }
+   
+ .banner { 
+    grid-area: banner;
+ }
+   
+ .texto { 
+    grid-area: texto;
+ }
+   
+ .logofoot { 
+    grid-area: logofoot;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+   
+ .leftnavfoot { 
+    grid-area: leftnavfoot; 
+ }
+   
+ .rightnavfoot { 
+    grid-area: rightnavfoot; 
+ }
+
+ /* ------ NOSOTROS ESTILOS MOBILE ------*/
+
+ .servicio--title{
+     font-size: 24px;
+     padding-top: 20px;
+     color: rgb(52, 59, 102);
+     }
+
+ .nosotros--title{
+    color: rgb(52, 59, 102);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10x;
+    padding-top: 20px;
+ }
+ 
+ .nosotros--p1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 20px;
+    border-style:dashed;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(24, 35, 48);
+    margin: 15px;
+ }
+
+ .header--banner-nosotros{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/nosotrosmobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 5px;
+ }
+
+
+
+ /* ---------- GRID PRESUPUESTO ------------ */
+ /* ---------- GRID PRESUPUESTO ------------ */
+ /* ---------- GRID PRESUPUESTO ------------ */
+
+ .containerpresupuesto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 20px 20px 200px auto 60px 20px 1fr;
+    grid-template-areas:
+      "logo"
+      "leftnav"
+      "rightnav"
+      "banner"
+      "texto"
+      "logofoot"
+      "leftnavfoot"
+      "rightnavfoot";
+   }
+   
+ .logo { 
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+ }
+   
+ .leftnav { 
+    grid-area: leftnav; 
+ }
+   
+ .rightnav { 
+    grid-area: rightnav; 
+ }
+   
+ .banner { 
+    grid-area: banner;
+ }
+   
+ .texto { 
+    grid-area: texto;
+ }
+   
+ .logofoot { 
+    grid-area: logofoot;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+   
+ .leftnavfoot { 
+    grid-area: leftnavfoot; 
+ }
+   
+ .rightnavfoot { 
+    grid-area: rightnavfoot; 
+ }
+
+ /*------ PRESUPUESTO ESTILO MOBILE -------*/
+
+ .header--banner-presupuesto{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/presupuesto.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 5px;
+ }
+
+ p.p-pre{
+    padding: 20px;
+    font-size: 14px;
+    border-style:dashed;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(24, 35, 48);
+    margin: 10px 20px;
+ }
+
+
+.content-table-mobile {
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   font-size: 0.9em;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .content-table-mobile thead tr {
+   background-color: #74a1cc;
+   color: #ffffff;
+   text-align: left;
+   font-weight: bold;
+ }
+ 
+ .content-table-mobile th,
+ .content-table-mobile td {
+   padding: 5px 5px;
+ }
+ 
+ .content-table-mobile tbody tr {
+   border-bottom: 1px solid #dddddd;
+ }
+ 
+ .content-table-mobile tbody tr:nth-of-type(even) {
+   background-color: #f3f3f3;
+ }
+ 
+ .content-table-mobile tbody tr:last-of-type {
+   border-bottom: 2px solid #6678b6;
+ }
+
+ 
+ .content-table-mobile tbody tr.active-row {
+   font-weight: bold;
+   color: #5b6ca7;
+ }
+
+ /* HIDE */
+
+ .content-table {
+   display: none;
+   border-collapse: collapse;
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   font-size: 0.9em;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .content-table thead tr {
+   background-color: #74a1cc;
+   color: #ffffff;
+   text-align: left;
+   font-weight: bold;
+ }
+ 
+ .content-table th,
+ .content-table td {
+   padding: 12px 15px;
+ }
+ 
+ .content-table tbody tr {
+   border-bottom: 1px solid #dddddd;
+ }
+ 
+ .content-table tbody tr:nth-of-type(even) {
+   background-color: #f3f3f3;
+ }
+ 
+ .content-table tbody tr:last-of-type {
+   border-bottom: 2px solid #6678b6;
+ }
+
+ 
+ .content-table tbody tr.active-row {
+   font-weight: bold;
+   color: #5b6ca7;
+ }
+
+
+
+ /* -------- GRID SERVICIO ------------ */
+ /* -------- GRID SERVICIO ------------ */
+ /* -------- GRID SERVICIO ------------ */
+
+.containerservicio {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 20px 20px 200px auto 60px 20px 1fr;
+    grid-template-areas:
+      "logo"
+      "leftnav"
+      "rightnav"
+      "banner"
+      "servicio"
+      "logofoot"
+      "leftnavfoot"
+      "rightnavfoot";
+   }
+   
+ .logo { 
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+ }
+   
+ .leftnav { 
+    grid-area: leftnav; 
+ }
+   
+ .rightnav { 
+    grid-area: rightnav; 
+ }
+   
+ .banner { 
+    grid-area: banner;
+ }
+   
+ .servicio { 
+    grid-area: servicio;
+ }
+   
+ .logofoot { 
+    grid-area: logofoot;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+   
+ .leftnavfoot { 
+    grid-area: leftnavfoot; 
+ }
+   
+ .rightnavfoot { 
+    grid-area: rightnavfoot; 
+ }
+
+ /* ------ SERVICIOS ESTILOS MOBILE ------*/
+
+ .header--banner-servicio{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/servicioheader.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 5px;
+   align-content: center;
+ }
+
+ p.mobile-servicios-title{
+     color: rgb(52, 59, 102);
+     font-size: 24px;
+     padding: 20px 20px 10px 20px;
+ }
+
+
+
+/* -------- GRID UBICACION ------------ */
+/* -------- GRID UBICACION ------------ */
+/* -------- GRID UBICACION ------------ */
+
+ .containerubicacion {
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 70px 20px 20px 200px auto 60px 20px 1fr;
+   grid-template-areas:
+     "logo"
+     "leftnav"
+     "rightnav"
+     "banner"
+     "ubicacion"
+     "logofoot"
+     "leftnavfoot"
+     "rightnavfoot";
+  }
+  
+ .leftnav { 
+ grid-area: leftnav; 
+ }
+
+ .logo { 
+ grid-area: logo;
+ }
+
+ .rightnav { 
+ grid-area: rightnav; 
+ }
+
+ .banner{
+   grid-area: banner;
+}
+
+ .ubicacion { 
+ grid-area: ubicacion;
+ }
+
+ .logofoot { 
+ grid-area: logofoot;
+ display: flex;
+ justify-content: center;
+ }
+ 
+ .leftnavfoot { 
+ grid-area: leftnavfoot; 
+ }
+ 
+ .rightnavfoot { 
+ grid-area: rightnavfoot; 
+ }
+
+/* ------ UBICACION ESTILOS MOBILE ------*/
+ 
+ .header--banner-ubicacion{
+   background-image: url(../assets/img/dpheaderlogo.png);
+   background-position: center;
+   background-size: 350px;
+   background-repeat: no-repeat;
+   border-style: dashed;
+   border-radius: 20px;
+   border-color: rgb(31,75,128);
+   border-width: 1.5px;
+   margin: 0 5px;
+ }
+
+
+ .map {
+ display: flex;
+ flex-direction: row;
+ margin-right: auto;
+ margin-left: auto;
+ padding-bottom: 20px;
+ height: 320px;
+ width: 320px;
+ }
+ 
+ .contacto--p {
+  color: rgb(52, 59, 102);
+ font-size: 24px;
+ text-align: center;
+ }
+   
+
+
+ /* -------- GRID CONTACTO ------------ */
+ /* -------- GRID CONTACTO ------------ */
+ /* -------- GRID CONTACTO ------------ */
+
+ .containercontacto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 20px 20px 200px auto 60px 20px 1fr;
+    grid-template-areas:
+      "logo"
+      "leftnav"
+      "rightnav"
+      "banner"
+      "contacto"
+      "logofoot"
+      "leftnavfoot"
+      "rightnavfoot";
+  }
+  
+ .leftnav { 
+      grid-area: leftnav; 
+    }
+  
+ .logo { 
+       grid-area: logo;
+    }
+  
+ .rightnav { 
+      grid-area: rightnav; 
+    }
+
+ .banner{
+       grid-area: banner;
+    }
+  
+ .contacto { 
+      grid-area: contacto;
+    }
+  
+ .logofoot { 
+      grid-area: logofoot;
+      display: flex;
+      justify-content: center;
+    }
+      
+ .leftnavfoot { 
+       grid-area: leftnavfoot; 
+    }
+      
+ .rightnavfoot { 
+       grid-area: rightnavfoot; 
+    }
+
+ .header--banner-contacto{
+      background-image: url(../assets/img/dpheaderlogo.png);
+      background-position: center;
+      background-size: 350px;
+      background-repeat: no-repeat;
+      border-style: dashed;
+      border-radius: 20px;
+      border-color: rgb(31,75,128);
+      border-width: 1.5px;
+      margin: 0 5px;
+   }
+
+ form {
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+    }
+    
+ .contacto--p {
+  color: rgb(52, 59, 102);
+ font-size: 30px;
+ text-align: center;
+ margin-top: 20px;
+    }
+ }
+
+
+
+/* -------- VISTA DESKTOP --------*//* -------- VISTA DESKTOP --------*//* -------- VISTA DESKTOP --------*/
+/* -------- VISTA DESKTOP --------*//* -------- VISTA DESKTOP --------*//* -------- VISTA DESKTOP --------*/
+/* -------- VISTA DESKTOP --------*//* -------- VISTA DESKTOP --------*//* -------- VISTA DESKTOP --------*/
+
+
+
+@media only screen and (min-width: 769px){
+
+
+/*----------- GRID HOME ------------*/
+
+ .container {
+   display: grid;
+   grid-template-columns: 47.5% 5% auto;
+   grid-template-rows: 90px 400px auto 1fr;
+   gap: 10px 10px;
+   grid-auto-flow: row;
+   grid-template-areas:
+     "leftnav logo rightnav"
+     "banner banner banner"
+     "servicio servicio servicio"
+     "leftfoot logofoot rightfoot";
+  }
+  
+ .logo { 
+   grid-area: logo;
+ }
+  
+ .leftnav { 
+   grid-area: leftnav; 
+ }
+  
+ .rightnav { 
+   grid-area: rightnav; 
+ }
+  
+ .banner { 
+   grid-area: banner;
+ }
+  
+ .servicio { 
+   grid-area: servicio;
+   height: auto
+ }
+  
+ .leftfoot { 
+   grid-area: leftfoot; 
+ }
+
+ .logofoot { 
+   grid-area: logofoot;
+ }
+
+ .rightfoot { 
+   grid-area: rightfoot; 
+ }
+
+ .flex{
+   display: flex;
+ }
+
+
+/* --------- ESTILO HOME ---------*/
+
+
+ a{
+   color: rgb(20, 19, 80);
+   text-decoration: none;
+ }
+
+ p{
+   text-align: center;
+ }
+
+ h1{
+   text-align: center;
+   position: relative;
+   color: rgb(255, 255, 255);
+   font-size: 60px;
+   align-items: center;
+ }
+
+ .head--textos {
+   background-color: rgba(0, 0, 0, 0.151);
+   background-position: center;
+   background-size: cover;
+   height: 150px;
+   top: 140px;
+   position: relative;
+   border-style: dashed;
+   border-color: white;
+   border-width: 0.5px;
+ }
+
+ li.header{
+   list-style-type: none;
+   padding: 45px 30px 20px 30px;
+   font-size: 20px;
+ }
+
+ .li-footer{
+   list-style-type: none;
+   padding: 20px;
+   font-size: 15px;
+ } 
+
+ .flex-around{
+   justify-content: space-around;
+ }
+
+ .boton{
+   color: rgb(0, 0, 0);
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   padding: 10px;
+   background-color: #96c5f3;
+   border: 1px solid rgb(58, 50, 133);
+   border-radius: 4px;
+ }
+
+ .boton.boton--filter:hover{
+   color: rgb(255, 255, 255);
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   padding: 10px;
+   background-color: rgb(31,75,128);
+   border: 1px solid gray;
+   transition: 0.5s;
+   border-radius: 4px;
+ }
+
+ ul.right-flex{
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ ul.left-flex{
+   display: flex;
+   justify-content: flex-end;
+ }
+
+ .left-flex-foot{
+   display: flex;
+   justify-content: flex-end;
+ }
+
+ .right-flex-foot{
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .logo{
+   justify-content: center;
+   justify-items: center;
+ }
+
+ .logofoot{
+   justify-content: center;
+   justify-items: center;
+ }
+
+ .main-text{
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 20px;
+   margin: 0;
+ }
+
+ .header--banner{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/header-img.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0 10px 0 10px;
+ }
+
+ section.main-3pics{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+ }
+
+ section.main-3pics img{
+   flex-direction: row;
+   flex-wrap: nowrap;
+   height: 235px;
+   width: 380px;
+   padding: 10px 10px;
+   border-radius: 30px;
+ }
+ 
+
+ div.img-01{
+   margin: 0 5px;
+   width: 400px;
+   height: 430px;
+   border-style: dashed;
+   border-radius: 30px;
+   border-width: 1px;
+   border-color: rgb(31,75,128);
+ }
+
+ div.img-01 img{
+  transition: all 500ms ease-in-out;
+  filter: grayscale(1);
+ }
+
+ div.img-01 img:hover{
+   filter: grayscale(0);
+ }
+
+ div.logofoot img{
+   width: 40px;
+   height: 50px;
+ }
+
+
+
+/* -------- GRID NOSOTROS DESKOTP ------------ */
+/* -------- GRID NOSOTROS DESKOTP ------------ */
+/* -------- GRID NOSOTROS DESKOTP ------------ */
+
+
+ .containernosotros{
+   display: grid;
+   grid-template-columns: 47.5% 5% auto;
+   grid-template-rows: 90px 500px auto 1fr;
+   gap: 10px 10px;
+   grid-auto-flow: row;
+   grid-template-areas:
+     "leftnav logo rightnav"
+     "banner banner banner"
+     "texto texto texto"
+     "leftfoot logofoot rightfoot";
+  }
+  
+  .leftnav { 
+     grid-area: leftnav; 
+   }
+  
+  .logo { 
+     grid-area: logo; 
+   }
+  
+  .rightnav { 
+     grid-area: rightnav; 
+   }
+  
+  .banner { 
+     grid-area: banner;
+   }
+  
+  .texto { 
+     grid-area: texto;
+   }
+  
+  .leftfoot { 
+     grid-area: leftfoot; 
+   }
+  
+  .logoofoot { 
+     grid-area: logofoot;
+   }
+  
+  .rightfoot { 
+     grid-area: rightfoot; 
+   }
+
+
+/* -------- NOSOTROS ESTILO ------------ */
+
+
+ .nosotros--title{
+  color: rgb(52, 59, 102);
+   font-size: 36px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 20px;
+ }
+
+ .nosotros--p1{
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+   padding: 20px 80px;
+   margin: 0 100px;
+   border-style: dashed;
+   border-radius: 20px;
+   border-width: 1px;
+   border-color: rgb(31,75,128);
+ }
+
+ .header--banner-nosotros{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/nosotros00.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: auto;
+   margin: 5px;
+ }
+
+
+ /* -------- GRID PRESUPUESTO ------------ */
+ /* -------- GRID PRESUPUESTO ------------ */
+ /* -------- GRID PRESUPUESTO ------------ */
+
+
+ .containerpresupuesto{
+   display: grid;
+   grid-template-columns: 47.5% 5% auto;
+   grid-template-rows: 90px 500px auto 1fr;
+   gap: 10px 10px;
+   grid-auto-flow: row;
+   grid-template-areas:
+     "leftnav logo rightnav"
+     "banner banner banner"
+     "texto texto texto"
+     "leftfoot logofoot rightfoot";
+  }
+  
+  .leftnav { 
+     grid-area: leftnav; 
+   }
+  
+  .logo { 
+     grid-area: logo; 
+   }
+  
+  .rightnav { 
+     grid-area: rightnav; 
+   }
+  
+  .banner { 
+     grid-area: banner;
+   }
+  
+  .texto { 
+     grid-area: texto;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+   }
+  
+  .leftfoot { 
+     grid-area: leftfoot; 
+   }
+  
+  .logoofoot { 
+     grid-area: logofoot;
+   }
+  
+  .rightfoot { 
+     grid-area: rightfoot; 
+   }
+
+
+  /* ---------------  PRESUPUESTO ESTILOS ---------------*/
+
+
+ .header--banner-presupuesto{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/presupuesto.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 5px;
+ }
+
+ p.p-pre{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    margin: 0px 100px;
+    border-style: dashed;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(31,75,128);
+ }
+
+ .table-center-mobile{
+   display: none;
+ }
+
+ .content-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #74a1cc;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #6678b6;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #5b6ca7;
+  }
+
+  
+
+/* --------------- GRID SERVICIOS ---------------*/
+/* --------------- GRID SERVICIOS ---------------*/
+/* --------------- GRID SERVICIOS ---------------*/
+
+
+
+ .containerservicio{
+   display: grid;
+   grid-template-columns: 47.5% 5% auto;
+   grid-template-rows: 90px 500px auto 1fr;
+   gap: 10px 10px;
+   grid-auto-flow: row;
+   grid-template-areas:
+  "leftnav logo rightnav"
+  "banner banner banner"
+  "servicio servicio servicio"
+  "leftfoot logofoot rightfoot";
+ }
+      
+ .leftnav { 
+  grid-area: leftnav; 
+ }
+      
+ .logo { 
+  grid-area: logo; 
+ }
+ 
+ .rightnav { 
+  grid-area: rightnav; 
+ }
+
+ .banner{
+   grid-area: banner;
+ }
+ 
+ .servicio { 
+  grid-area: servicio;
+ }
+ 
+ .leftfoot { 
+  grid-area: leftfoot; 
+ }
+ 
+ .logofoot { 
+  grid-area: logofoot;
+ }
+ 
+ .rightfoot { 
+  grid-area: rightfoot; 
+ }
+
+/* ---------------  SERVICIOS ESTILOS ---------------*/
+
+
+ p.servicio{
+    color: black;
+    font-size: 40px;
+    margin-top: 40px;
+ }
+
+ .header--banner-servicio{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/servicioheader.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 5px;
+   align-content: center;
+ }
+
+ /* -------- GRID UBICACION ------------ */
+ /* -------- GRID UBICACION ------------ */
+ /* -------- GRID UBICACION ------------ */
+
+ .containerubicacion {
+    display: grid;
+    grid-template-columns: 47.5% 5% auto;
+    grid-template-rows: 90px 300px auto 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "leftnav logo rightnav"
+      "banner banner banner"
+      "ubica ubica ubica"
+      "leftfoot logofoot rightfoot";
+  }
+  
+  .leftnav { 
+      grid-area: leftnav; 
+    }
+  
+  .logo { 
+      grid-area: logo; 
+    }
+  
+  .rightnav { 
+      grid-area: rightnav; 
+    }
+
+  .banner{
+     grid-area: banner;
+  }  
+  
+  .ubica { 
+      grid-area: ubica;
+    }
+  
+  .leftfoot { 
+      grid-area: leftfoot; 
+    }
+  
+  .logoofoot { 
+      grid-area: logofoot;
+    }
+  
+  .rightfoot { 
+      grid-area: rightfoot; 
+    }
+
+/* -------- UBICACION ESTILOS --------- */
+
+ .header--banner-ubicacion{
+      background-image: url(../assets/img/dpheaderlogo.png);
+      background-position: center;
+      background-size: 800px;
+      background-repeat: no-repeat;
+      border-style: dashed;
+      border-radius: 20px;
+      border-color: rgb(31,75,128);
+      border-width: 1.5px;
+      margin: 0 5px;
+   }  
+
+ .map {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+ }
+
+
+ /* -------- GRID CONTACTO ------------ */
+ /* -------- GRID CONTACTO ------------ */
+ /* -------- GRID CONTACTO ------------ */
+
+
+ .containercontacto{
+    display: grid;
+    grid-template-columns: 47.5% 5% auto;
+    grid-template-rows: 90px 300px auto 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "leftnav logo rightnav"
+      "banner banner banner"
+      "contacto contacto contacto"
+      "leftfoot logofoot rightfoot";
+  }
+  
+  .leftnav { 
+ grid-area: leftnav; 
+    }
+  
+ .logo { 
+      grid-area: logo; 
+    }
+  
+ .rightnav { 
+      grid-area: rightnav; 
+    }
+
+ .banner{
+       grid-area: banner;
+    }
+  
+ .contacto { 
+      grid-area: contacto;
+      margin-bottom: 60px;
+    }
+  
+ .leftfoot { 
+      grid-area: leftfoot; 
+    }
+  
+ .logoofoot { 
+      grid-area: logofoot;
+    }
+  
+ .rightfoot { 
+      grid-area: rightfoot; 
+    }
+
+/* ---------------  CONTACTO ESTILOS ---------------*/
+
+ .header--banner-contacto{
+   background-image: url(../assets/img/dpheaderlogo.png);
+   background-position: center;
+   background-size: 800px;
+   background-repeat: no-repeat;
+   border-style: dashed;
+   border-radius: 20px;
+   border-color: rgb(31,75,128);
+   border-width: 1.5px;
+   margin: 0 5px;
+ }  
+
+ form {
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ .contacto--p {
+    color: rgb(52, 59, 102);
+    font-size: 36px;
+    text-align: center;
+ }
+
+    }
