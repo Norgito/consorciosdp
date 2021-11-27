@@ -17,6 +17,26 @@ h1{
   body {
     text-align: center !important;
   }
+
+  .container .box .text h2{
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    transition: .5s;
+    transition-timing-function: linear;
+    transform: translateY(-10px);
+  }
+
+  .box{
+    margin: 0 auto !important;
+  }
+
+
+
+
 }
 
 /*.menu-bar{
@@ -25,6 +45,7 @@ h1{
 
 .col-xs-12{
   padding: 5px !important;
+  margin: 0 auto !important;
 }
 
 
@@ -91,7 +112,7 @@ h1{
   left: -150%;
   width: 120%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   transform: skewX(-30deg);
   transition: .5s;
 }
@@ -178,7 +199,7 @@ h1{
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 1px;
-  opacity: 0;
+  opacity: 1;
   transition: .5s;
   transition-timing-function: linear;
   transform: translateY(-10px);
@@ -192,7 +213,7 @@ h1{
 
 .container .box .text p{
   line-height: 1.2;
-  opacity: 0;
+  opacity: 1;
   transform:translateY(10px);
   transition: .5s;
   transition-timing-function: linear;
