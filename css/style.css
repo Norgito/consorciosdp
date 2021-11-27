@@ -5,13 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
-  font-weight: bolder;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
-  text-align: center;
-}
-
+/* ---- INDEX MOBILE ----*/
 
 @media screen and (max-width: 500px) {
   body {
@@ -34,20 +28,21 @@ h1{
     margin: 0 auto !important;
   }
 
-
-
-
 }
 
-/*.menu-bar{
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-}*/
+/* ---- INDEX DESKTOP ---- */
+
+h1{
+  font-weight: bolder;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  text-align: center;
+}
 
 .col-xs-12{
   padding: 5px !important;
   margin: 0 auto !important;
 }
-
 
 .nav-link{
   padding-left: 1.5rem !important;
@@ -225,7 +220,7 @@ h1{
   transition-delay: 1.6s;
 }
 
-/* REDES */
+/* ---- INDEX REDES ---- */
 
 .wrapper{
   display: flex;
@@ -335,13 +330,17 @@ i.fab.fa-facebook-f{
 }
 
 
-/* NOSOTROS */
+
+
+/* ---- NOSOTROS MOBILE ---- */
 
 @media screen and (max-width: 500px) {
   .mobile-nos {
     display: none;
   }
 }
+
+/* ---- NOSOTROS DESKTOP ---- */
 
 .single-box{
   background-color: #0a2957;
@@ -375,7 +374,42 @@ i.fab.fa-facebook-f{
   padding-right: 0 !important;
 }
 
-/* CONTACTO */
+
+
+
+/* ---- CONTACT MOBILE ---- */
+
+@media only screen and (max-width:480px) {
+	.contact-in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
+
+@media only screen and (max-width:360px) {
+	.contact-in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact-in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
+
+/* ---- CONTACTO DESKTOP ---- */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,800;0,900;1,300;1,500;1,800&family=Roboto:wght@100;300;700;900&display=swap');
 
@@ -536,34 +570,4 @@ body {
 .contact-in iframe {
 	width: 100%;
 	height: 100%;
-}
-
-@media only screen and (max-width:480px) {
-	.contact-in:nth-child(1) {
-		flex: 50%;
-	}
-
-	.contact-in:nth-child(2) {
-		flex: 50%;
-	}
-
-	.contact-in:nth-child(3) {
-		flex: 100%;
-	}
-
-}
-
-@media only screen and (max-width:360px) {
-	.contact-in:nth-child(1) {
-		flex: 50%;
-	}
-
-	.contact-in:nth-child(2) {
-		flex: 50%;
-	}
-
-	.contact-in:nth-child(3) {
-		flex: 100%;
-	}
-
 }
