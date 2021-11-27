@@ -3,78 +3,134 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,800;0,900;1,300;1,500;1,800&family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<title>NOSOTROS</title>
 </head>
-<body style=" background-image: linear-gradient(to top, #81bff8, #8cc1f8, #97c3f8, #a0c6f7, #a9c8f7, #accff8, #b1d5f8, #b7dbf8, #c1e6f8, #d0eff8, #e1f7f9, #f4fffe);">
-  <!-- el contenido tiene que tener un contenedor -->
-  <!-- div: contenedor no semantico en bloque -->
-  <!-- span: contenedor no semantico en linea -->
-  <!-- header /nav / section / main / article / footer / ... -->
-  <!-- todas estas etiquetas son semanticas -->
- <div class="containernosotros">
-
-      <div class="logo border flex">
-         <img src="../assets/img/logo.png" alt="logo">
-      </div>
-
-     <div class="leftnav border">
-       <nav class="left-ul">
-           <ul class="left-flex">
-              <li class="header"><a href="../index.html">HOME</a></li>
-              <li class="header"><a href="#">NOSOTROS</a></li>
-              <li class="header"><a href="../pages/presupuesto.html">PRESUPUESTO</a></li>
+<body>
+  <div class="container-fluid">
+     <!--nav + logo-->
+       <div class="menu-bar">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a><img src="../assets/img/logodpnav.png">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="../index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Nosotros</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="../pages/presupuesto.html">Presupuesto</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+             </li>
            </ul>
-       </nav>
-     </div>
-
-     <div class="rightnav border">
-         <nav class="right-ul">
-            <ul class="right-flex">
-             <li class="header"><a href="../pages/servicios.html">SERVICIOS</a></li>
-             <li class="header"><a href="../pages/ubicacion.html">UBICACION</a></li>
-             <li class="header"><a href="../pages/contacto.html">CONTACTO</a></li>
-           </ul> 
-         </nav>
-      </div>
-
-     <div class="banner border header--banner-nosotros"> 
-        <div class="banner-margin">
+            </div>
+          </nav>
+       </div>
+</div>
+  <!--main-->
+  <div class="container-fluid" data-aos="zoom-in">
+     <section class="row">
+        <div class="col-lg-12 col-xs-12">
+          <img src="../assets/img/nosotros00.jpg" alt="nosotros" style="width: 100%; height: auto;">
         </div>
-     </div>
+     </section>
+  </div>
+  <div class="services-area">
+		<div class="container" data-aos="zoom-in">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12">
+					<div class="single-box text-center mt-1">
+            <h1>NUESTRA MISIÓN</h1>
+						<p>Brindar un servicio integral de administración de consorcios, de modo de satisfacer las necesidades de los propietarios de manera oportuna, precisa y con el más alto nivel profesional. <br><br>Basando el desarrollo de nuestra práctica en los ideales de transparencia, ejemplaridad y verdadera vocación de servicio. <br>Nuestra función de administrar no sólo se basa en la gestión de cobros, pagos y liquidación de expensas; nos enfocamos en planificar, organizar y controlar eficientemente todas las actividades con el objetivo de prevenir cualquier contingencia cumpliendo con la normativa vigente.<br><br> Asimismo, consideramos que un elemento trascendente de nuestra función, consiste en fomentar el conocimiento mutuo, la solidaridad y colaboración entre los miembros de la comunidad consorcial; de modo que las asambleas sean una feliz oportunidad para encontrarse e intercambiar ideas acerca del mejoramiento de la convivencia.</p>
+					</div>
+				</div>
+			</div>
 
-    <div class="texto border">
-      <div class="text-margin">
-        <p class="nosotros--title" style="font-weight: bolder;">NUESTRA MISIÓN</p>
+      <div class="row">
+        <div class="col-lg-3 mt-1 p-1 mobile-nos">
+          <img src="../assets/img/nos01.jpg" alt="Snow" style="width:100%" class="mw-100 rounded" data-aos="flip-left" data-aos-delay="500">
+        </div>
+        <div class="col-lg-6 mt-1 p-1">
+          <img src="../assets/img/nos02.jpg" alt="Forest" style="width:100%" class="mw-100 rounded" data-aos="flip-left" data-aos-delay="700">
+        </div>
+        <div class="col-lg-3 mt-1 p-1 mobile-nos">
+          <img src="../assets/img/nos01.jpg" alt="Mountains" style="width:100%" class="mw-100 rounded" data-aos="flip-left" data-aos-delay="900">
+        </div>
+      </div> 
+
+</div>
+
+   <!-- cierre de main-->
+   <!--footer-->
+  <div class="container-fluid">
+    <footer class="row">
+      <div class="col-lg-12 col-xs-12">
+        <div class="menu-bar">
+          <nav class="navbar navbar-expand-lg navbar-light">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav mx-auto" style="align-items: center;">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/presupuesto.html">Presupuesto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+             </div>
+           </nav>
+        </div>
       </div>
-      <div>
-        <p class="nosotros--p1">Brindar un servicio integral de administración de consorcios, de modo de satisfacer las necesidades de los propietarios de manera oportuna, precisa y con el más alto nivel profesional. <br><br>Basando el desarrollo de nuestra práctica en los ideales de transparencia, ejemplaridad y verdadera vocación de servicio. <br>Nuestra función de administrar no sólo se basa en la gestión de cobros, pagos y liquidación de expensas; nos enfocamos en planificar, organizar y controlar eficientemente todas las actividades con el objetivo de prevenir cualquier contingencia cumpliendo con la normativa vigente.<br><br> Asimismo, consideramos que un elemento trascendente de nuestra función, consiste en fomentar el conocimiento mutuo, la solidaridad y colaboración entre los miembros de la comunidad consorcial; de modo que las asambleas sean una feliz oportunidad para encontrarse e intercambiar ideas acerca del mejoramiento de la convivencia. </p>
+      <div class="col-lg-12 col-xs-12">
+        <div class="wrapper">
+          <a href="#" class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span><i class="fab fa-facebook-f"></i></span>
+          </a>
+          <a href="#" class="icon twitter">
+            <div class="tooltip">Twitter</div>
+            <span><i class="fab fa-twitter"></i></span>
+          </a>
+          <a href="#" class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span><i class="fab fa-instagram"></i></span>
+        </div>
       </div>
-    </div>
-
-    <div class="leftnavfoot border">
-      <nav class="left-ul">
-         <ul class="left-flex-foot">
-           <li class="li-footer"><a href="../index.html">HOME</a></li>
-           <li class="li-footer"><a href="#">NOSOTROS</a></l>
-           <li class="li-footer"><a href="../pages/presupuesto.html">PRESUPUESTO</a></li>
-        </ul> 
-     </nav>
-    </div>
-
-    <div class="logofoot border flex">
-      <img src="../assets/img/logo.png" alt="logo">
-    </div>
-
-    <div class="rightnavfoot border">
-      <nav class="right-ul">
-         <ul class="right-flex-foot">
-            <li class="li-footer"><a href="../pages/servicios.html">SERVICIOS</a></li>
-            <li class="li-footer"><a href="../pages/ubicacion.html">UBICACION</a></li>
-            <li class="li-footer"><a href="../pages/contacto.html">CONTACTO</a></li>
-         </ul> 
-       </nav>
-    </div>
- </div>
+    </footer>
+  </div>
+  <!--cierre de footer-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+   AOS.init();
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> 
 </body>
 </html>
