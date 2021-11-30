@@ -31,7 +31,6 @@
   .box{
     margin: 0 auto !important;
   }
-
 }
 
 /* ---- INDEX DESKTOP ---- */
@@ -267,6 +266,7 @@ i.fab.fa-facebook-f{
   color: #333;
   text-decoration: none;
 }
+
 .wrapper .tooltip {
   position: absolute;
   top: 0;
@@ -281,6 +281,7 @@ i.fab.fa-facebook-f{
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .wrapper .tooltip::before {
   position: absolute;
   content: "";
@@ -292,48 +293,53 @@ i.fab.fa-facebook-f{
   transform: translate(-50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .wrapper .icon:hover .tooltip {
   top: -45px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
+
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
   background-color: #3b5999;
   color: #ffffff;
 }
+
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
   background-color: #46c1f6;
   color: #ffffff;
 }
+
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
   background-color: #e1306c;
   color: #ffffff;
 }
+
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
   background-color: #333333;
   color: #ffffff;
 }
+
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
   background-color: #de463b;
   color: #ffffff;
 }
-
-
 
 
 /* ---- NOSOTROS MOBILE ---- */
@@ -355,7 +361,6 @@ i.fab.fa-facebook-f{
 .single-box p {
 	margin-top: 20px;
   color: #c3eafa;
-  
 }
 
 .single-box h1 {
@@ -379,8 +384,6 @@ i.fab.fa-facebook-f{
 }
 
 
-
-
 /* ---- CONTACT MOBILE ---- */
 
 @media only screen and (max-width:480px) {
@@ -395,7 +398,6 @@ i.fab.fa-facebook-f{
 	.contact-in:nth-child(3) {
 		flex: 100%;
 	}
-
 }
 
 @media only screen and (max-width:360px) {
@@ -410,8 +412,8 @@ i.fab.fa-facebook-f{
 	.contact-in:nth-child(3) {
 		flex: 100%;
 	}
-
 }
+
 
 /* ---- CONTACTO DESKTOP ---- */
 
