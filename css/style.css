@@ -1,3 +1,7 @@
+:root{
+  --colorAzul: #0a2957
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -343,7 +347,7 @@ i.fab.fa-facebook-f{
 /* ---- NOSOTROS DESKTOP ---- */
 
 .single-box{
-  background-color: #0a2957;
+  background-color: var(--colorAzul);
   padding: 40px;
 	border-radius: 15px;
 }
@@ -445,7 +449,7 @@ body {
 
 .contact-in:nth-child(2) {
 	flex: 45%;
-	background: #0a2957;
+	background: var(--colorAzul);
 }
 
 .contact-in:nth-child(3) {
@@ -583,7 +587,7 @@ body {
 }
 
 .background-01 {
-  background:#0a2957;
+  background: var(--colorAzul);
 }
 
 .background-02 {
@@ -609,7 +613,7 @@ h2{
 }
 
 .content-table thead tr {
-  background-color:#0a2957;
+  background-color: var(--colorAzul);
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -634,5 +638,5 @@ h2{
 
 .content-table tbody tr.active-row {
   font-weight: bold;
-  color:#0a2957;
+  color: var(--colorAzul);
 }
