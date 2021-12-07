@@ -1,0 +1,93 @@
+@import "color";
+
+/* ----- BODY ----- */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----- index ----- */
+@media screen and (max-width: 500px) {
+    body {
+      text-align: center !important;
+    }
+  }
+
+h1{
+    font-weight: bolder;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: center;
+  }
+  
+  .col-xs-12{
+    padding: 5px !important;
+    margin: 0 auto !important;
+  }
+
+  /* ----- Nosotros ----- */
+  /* ---- NOSOTROS MOBILE ---- */
+
+@media screen and (max-width: 500px) {
+    .mobile-nos {
+      display: none;
+    }
+  }
+
+  /* ---- NOSOTROS DESKTOP ---- */
+
+.single-box{
+    background-color: $azulP;
+    padding: 40px;
+      border-radius: 15px;
+  }
+  
+  .single-box p {
+      margin-top: 20px;
+    color: #c3eafa;
+  }
+  
+  .single-box h1 {
+      padding: 10px 50px;
+      color: white;
+      position: relative;
+      height: 100%;
+      text-decoration: none;
+      font-size: 35px;
+      text-transform: uppercase;
+  }
+  
+  .row.row-no-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .col-no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* ----- Servicios ----- */
+
+  .align-items-center {
+    align-items: center!important;
+  }
+  .d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+  }
+  
+  .background-01 {
+    background: $azulP;
+  }
+  
+  .background-02 {
+    background: #8fc1e6;
+  }
+  
+  h2{
+    font-weight: bolder;
+  }
