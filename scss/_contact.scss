@@ -1,3 +1,5 @@
+@import "color";
+
 /* ----- Contact Body ----- */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,800;0,900;1,300;1,500;1,800&family=Roboto:wght@100;300;700;900&display=swap');
@@ -65,7 +67,7 @@ body {
 
 .contact-in:nth-child(2) {
 	flex: 45%;
-	background: var(--colorAzul);
+	background: $azulP;
 }
 
 .contact-in:nth-child(3) {
