@@ -1,5 +1,6 @@
-/* ----- PRESUPUESTO  -----*/
+@import "color";
 
+/* ----- PRESUPUESTO  -----*/
 
 .content-table {
     border-collapse: collapse;
@@ -12,8 +13,8 @@
   }
   
   .content-table thead tr {
-    background-color: var(--colorAzul);
-    color: #ffffff;
+    background-color: $azulP;
+    color:map-get($PaletaColores,blanco);
     text-align: left;
     font-weight: bold;
   }
@@ -37,5 +38,5 @@
   
   .content-table tbody tr.active-row {
     font-weight: bold;
-    color: var(--colorAzul);
+    color:map-get($PaletaColores,primario);
   }

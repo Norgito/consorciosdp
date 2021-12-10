@@ -17,6 +17,7 @@
   }
 
   /* ----- Index Desktop ----- */
+
   .container .box{
     position: relative;
     width: 350px !important;
@@ -157,7 +158,7 @@
   
   .container .box .text h2{
     position: relative;
-    color: white;
+    color:map-get($PaletaColores,blanco);
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 0;

@@ -10,6 +10,7 @@
 }
 
 /* ----- index ----- */
+
 @media screen and (max-width: 500px) {
     body {
       text-align: center !important;
@@ -39,14 +40,18 @@ h1{
 
   /* ---- NOSOTROS DESKTOP ---- */
 
+  @mixin cajatexto($bcolor,$pad,$bradio) {
+    background-color: $bcolor;
+    padding: $pad;
+    border-radius: $bradio;
+  }
+
 .single-box{
-    background-color: $azulP;
-    padding: 40px;
-      border-radius: 15px;
+  @include cajatexto($azulP,40px,15px);
   }
   
   .single-box p {
-      margin-top: 20px;
+    margin-top: 20px;
     color: #c3eafa;
   }
   

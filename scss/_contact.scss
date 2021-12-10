@@ -62,7 +62,7 @@ body {
 .contact-in:nth-child(1) {
 	flex: 30%;
 	background: url(../assets/img/contactinfo.jpg);
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 }
 
 .contact-in:nth-child(2) {
@@ -77,7 +77,7 @@ body {
 
 .contact-in h1 {
 	font-size: 24px;
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -128,10 +128,14 @@ body {
 	border-radius: 50px;
 }
 
+.contact-in ul li a:hover {
+	background: $azulC;
+}
+
 .contact-in ul li a i {
 	font-size: 14px;
 	line-height: 30px;
-	color: #000;
+	color:map-get($PaletaColores,negro);
 }
 
 .contact-in form {
@@ -147,14 +151,14 @@ body {
 	outline: none;
 	padding-left: 5px;
 	background: transparent;
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 }
 
 .contact-in-input::placeholder {
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 }
 
 .contact-in-textarea {
@@ -166,14 +170,14 @@ body {
 	padding-top: 5px;
 	padding-left: 5px;
 	background: transparent;
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 }
 
 .contact-in-textarea::placeholder {
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 }
 
 .contact-in-btn {
@@ -182,11 +186,17 @@ body {
 	border: 1px solid #fff;
 	outline: none;
 	background: transparent;
-	color: #fff;
+	color:map-get($PaletaColores,blanco);
 	font-size: 12px;
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
 	cursor: pointer;
+}
+
+.contact-in-btn:hover {
+	@extend .contact-in-btn;
+	border: 2px solid $azulC;
+	color: $azulC;
 }
 
 .contact-in iframe {
