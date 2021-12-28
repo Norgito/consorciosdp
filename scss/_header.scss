@@ -40,6 +40,15 @@ h1{
 
   /* ---- NOSOTROS DESKTOP ---- */
 
+  .nos-h1{
+    font-size: 35px;
+    color: white;
+  }
+
+  .nos-p{
+    margin-bottom: 0;
+  }
+
   @mixin cajatexto($bcolor,$pad,$bradio) {
     background-color: $bcolor;
     padding: $pad;

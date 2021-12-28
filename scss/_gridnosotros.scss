@@ -1,0 +1,92 @@
+@import "color";
+
+.grid-contenedor{
+    display: grid;
+    @media only screen and (max-width:768px){
+        grid-template-rows: auto 30px auto auto auto auto auto;
+        grid-template-columns: 100%;
+        gap: 8px;
+        grid-auto-rows: row;
+        grid-template-areas: 
+        "logo"
+        "nav"
+        "banner"
+        "content"
+        "banner2"
+        "footer"
+        "redes";
+    }
+    @media only screen and (min-width:1023px){
+        grid-template-rows: 90px auto auto auto 60px 50px;
+        grid-template-columns: 30% auto;
+        gap: 10px;
+        grid-template-areas: 
+        "logo nav"
+        "banner banner"
+        "content content"
+        "banner2 banner2"
+        "footer footer"
+        "redes redes";
+    }
+}
+
+.item-hijo-logo {
+    grid-area: logo;
+    display: flex;
+    padding-top: 13px;
+    padding-left: 31px;
+    @media only screen and (max-width:768px) {
+    justify-content: center;
+    }
+    
+}
+
+.item-hijo-nav {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (min-width:1023px) {
+        justify-content: flex-end;
+      }
+}
+.item-hijo-banner { grid-area: banner; }
+
+.item-hijo-content {
+    grid-area: content;
+    background-color: $azulP;
+    color: $azultxt;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 10px;
+    text-align: center;
+    @media only screen and (min-width:1023px){
+        font-size: 1rem;
+        padding: 40px;
+        margin: 0 80px;
+    }
+ }
+
+.item-hijo-banner2 {
+    grid-area: banner2;
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width:1023px){
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        height: auto;
+        border-radius: 220px;
+    }
+}
+
+.item-hijo-footer {
+    grid-area: footer;
+
+}
+
+.item-hijo-redes{
+    grid-area: redes;
+}

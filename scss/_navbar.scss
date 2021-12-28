@@ -5,3 +5,32 @@
     padding-right: 1.5rem !important;
   }
 
+  .nav-nos{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+
+    li{
+      list-style: none;
+      a{
+        text-decoration: none;
+        color: gray;
+        @media only screen and (max-width:768px) {
+          padding: 10px;
+          font-size: 14px;
+        }
+        @media only screen and (min-width:1023px) {
+          padding: 30px;
+          align-items: center;
+        }
+      }
+    }
+  }
+  
+  .nav-nos a:hover{
+      color: rgba(0,0,0,.9);
+    }
+
+
+
