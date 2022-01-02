@@ -623,7 +623,7 @@ body {
     .item-hijo-content {
       font-size: 1rem;
       padding: 40px;
-      margin: 0 80px; } }
+      margin: 0 200px; } }
 
 .item-hijo-banner2 {
   grid-area: banner2;
