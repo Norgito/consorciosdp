@@ -238,6 +238,23 @@ h1 {
   padding-right: 0 !important; }
 
 /* ----- Servicios ----- */
+.servicio-text {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: white; }
+  @media only screen and (max-width: 768px) {
+    .servicio-text {
+      font-size: 32px; } }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%; }
+
 .align-items-center {
   align-items: center !important; }
 
