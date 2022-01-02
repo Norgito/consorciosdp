@@ -623,7 +623,7 @@ body {
     .item-hijo-content {
       font-size: 1rem;
       padding: 40px;
-      margin: 0 200px; } }
+      margin: 0 250px; } }
 
 .item-hijo-banner2 {
   grid-area: banner2;
@@ -634,9 +634,7 @@ body {
       display: flex;
       align-items: center;
       justify-self: center;
-      width: 100%;
-      height: auto;
-      border-radius: 220px; } }
+      width: auto !important; } }
 
 .item-hijo-footer {
   grid-area: footer; }
